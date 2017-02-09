@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  WC.h
 //  aaaa
 //
 //  Created by admin on 17/2/9.
@@ -7,10 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "WC.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (nonatomic,retain) WC *wc;
+@interface WC : NSWindowController
 
 @end
-
