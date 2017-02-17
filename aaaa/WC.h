@@ -9,5 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 @interface WC : NSWindowController
+- (IBAction)click:(id)sender;
 
 @end
